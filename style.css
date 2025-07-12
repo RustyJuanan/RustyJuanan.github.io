@@ -5,8 +5,8 @@ html{
 }
 
 .texto-box{
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 20%;
+    margin-bottom: 20%;
     border-radius: 10px;
     padding: 10px;
     background-color: hsl(0, 0%, 100%,0.5);
