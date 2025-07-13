@@ -1,15 +1,14 @@
 
 html{
     height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image:url(tenna.gif), linear-gradient(30deg,rgba(32, 143, 21, 0.8) 0%, rgba(36, 240, 100, 0.8) 47%, rgba(0, 212, 255, 0.8)100%);
     display: grid;
     height: inherit;
     justify-content: center;
-    
 }
 
 #socials-list>li{
@@ -19,8 +18,14 @@ body{
     padding-right: 5px;
     color: rgb(0, 0, 0);
 }
+#socials-list>li>a{
+    transition: 0.4s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
 
-#socials-list>li:hover{
+#socials-list>li>a:hover{
     transition: 0.4s;
     padding-left: 10px;
     padding-right: 10px;
