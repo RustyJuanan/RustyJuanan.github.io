@@ -1,7 +1,5 @@
 "use strict";
-(() => {
-    const canvas = document.getElementById('canvas');
-    const handleDrawCircle = (event) => {
-        const x = event.pageX;
-    };
-})();
+function getAyuda() {
+    $('#article-title').html('Ayuda');
+    $('#personal-text').html('Yo también la quiero, dw.');
+}
